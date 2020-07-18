@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SMS.Business\SMS.Business.csproj" />
+    <ProjectReference Include="..\SMS.Data\SMS.Data.csproj" />
+    <ProjectReference Include="..\SMS.Domain\SMS.Domain.csproj" />
+    <ProjectReference Include="..\SMS.Repository\SMS.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
